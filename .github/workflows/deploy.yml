@@ -8,7 +8,7 @@ on:
   workflow_dispatch: # Allows manual triggering from the GitHub UI
 
 env:
-FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
 
 # Set permissions to allow Actions to write to GitHub Pages
 permissions:
